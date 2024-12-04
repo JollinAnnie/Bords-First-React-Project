@@ -6,7 +6,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { PROFILE_DATA } from "../utils/data";
 
-import PROFILE_PIC from "../assets/Temporary_Profile.jpg";
+
+import PROFILE_PIC from "../assets/bords.jpg";
 
 const Hero = () => {
   const {

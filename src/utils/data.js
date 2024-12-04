@@ -1,10 +1,17 @@
+import rem from "../../src/assets/rem.webp"
+import Tyrone from "../../src/assets/Tyrone.jpg"
+import edp from "../../src/assets/edp.jpg"
+import megumin from "../../src/assets/Megumin.webp"
+import hina from "../../src/assets/hina.webp"
+import horikita from "../../src/assets/horikita.jpeg"
+
 export const PROFILE_DATA = {
   profilePicture: "https://via.placeholder.com/150",
-  name: "Kai Rodriguez",
-  tagline: `A full-stack developer passionate about creating innovative solutions and bridging technology with user-centric design.`,
-  jobTitle: "Senior Software Engineer",
-  location: "San Francisco, CA",
-  yearsOfExperience: 6,
+  name: "April Bords Mahuyop Nerosa",
+  tagline: `Predestined to defeat the malevolent forces that taint this realm`,
+  jobTitle: "Animeologist",
+  location: "Davao City Abreeza",
+  yearsOfExperience: 999,
   skills: [
     "Python",
     "Django",
@@ -19,7 +26,7 @@ export const PROFILE_DATA = {
     "SQL",
     "CI/CD",
   ],
-  email: "kai.rodriguez@techpro.com",
+  email: "bordsNerosa@gmail.com",
   phone: "415-789-1234",
   website: "https://www.linkedin.com/in/kairodriguez/",
 };
@@ -27,32 +34,32 @@ export const PROFILE_DATA = {
 export const SKILLS = [
   {
     id: "01",
-    image: "https://via.placeholder.com/300",
-    title: "Python",
-    comment: `Python is my primary language of choice. I've used it extensively in backend development, data analysis, and building scalable web applications across various industries.`,
+    image: Tyrone,
+    title: "Tyrone",
+    comment: `My first love!`,
   },
   {
     id: "02",
-    image: "https://via.placeholder.com/300",
-    title: "Vue.js",
-    comment: `I'm deeply passionate about creating reactive and responsive user interfaces with Vue.js. My approach focuses on clean architecture and component-based design.`,
+    image: edp,
+    title: "EDP44",
+    comment: `Best cupcake maker`,
   },
   {
     id: "03",
-    image: "https://via.placeholder.com/300",
-    title: "Docker",
+    image: megumin,
+    title: "Megumin",
     comment: `Containerization is crucial for modern software deployment. I've implemented Docker solutions that streamline development workflows and ensure consistent environments.`,
   },
   {
     id: "04",
-    image: "https://via.placeholder.com/300",
-    title: "AWS",
+    image: rem,
+    title: "Rem",
     comment: `Amazon Web Services is my go-to cloud platform. I've designed and deployed scalable cloud architectures, leveraging services like EC2, S3, and Lambda.`,
   },
   {
     id: "05",
-    image: "https://via.placeholder.com/300",
-    title: "GraphQL",
+    image: horikita,
+    title: "Horikita",
     comment: `GraphQL has revolutionized how I approach API design. I've implemented efficient, flexible data querying solutions that improve overall system performance.`,
   },
   {
