@@ -37,61 +37,37 @@ export const SKILLS = [
     id: "01",
     image: Tyrone,
     title: "Tyrone",
-    comment: `My first love!`,
+    comment: `My heart beats faster with every line of code I write, just like the first time I met you. You inspire my passion!`,
   },
   {
     id: "02",
     image: edp,
     title: "EDP44",
-    comment: `Best cupcake maker`,
+    comment: `Just like the sweetest cupcake, your support and encouragement fill my world with joy. You are the icing on my cake. 💕`,
   },
   {
     id: "03",
     image: megumin,
     title: "Megumin",
-    comment: `Containerization is crucial for modern software deployment. I've implemented Docker solutions that streamline development workflows and ensure consistent environments.`,
+    comment: `With every explosion of creativity, I feel the spark of something magical. Just like you, my work is full of energy and wonder! 💥`,
   },
   {
     id: "04",
     image: rem,
     title: "Rem",
-    comment: `Amazon Web Services is my go-to cloud platform. I've designed and deployed scalable cloud architectures, leveraging services like EC2, S3, and Lambda.`,
+    comment: `You’re like a warm embrace on a chilly evening—steady, reliable, and always there to support me, just like AWS in my cloud adventures. 🌙`,
   },
   {
     id: "05",
     image: horikita,
     title: "Horikita",
-    comment: `GraphQL has revolutionized how I approach API design. I've implemented efficient, flexible data querying solutions that improve overall system performance.`,
+    comment: `Like the perfect query, you always know exactly what to say. With you by my side, every challenge feels like a puzzle that’s meant to be solved. 💫`,
   },
   {
     id: "06",
     image: klee,
     title: "Klee",
-    comment: `Continuous Integration and Continuous Deployment are critical for modern software development. I've set up robust pipelines that automate testing and deployment processes.`,
-  },
-];
-
-export const WORK_EXPERIENCE = [
-  {
-    id: "01",
-    company: "TechInnovate Solutions",
-    position: "Senior Software Engineer",
-    duration: "2021 - Present",
-    description: "Leading a team of developers in creating enterprise-level web applications. Responsible for architecture design, code reviews, and implementing cutting-edge technologies."
-  },
-  {
-    id: "02",
-    company: "DataStream Analytics",
-    position: "Backend Developer",
-    duration: "2019 - 2021",
-    description: "Developed scalable backend services using Python and Django. Implemented complex data processing pipelines and optimized database performance for large-scale data applications."
-  },
-  {
-    id: "03",
-    company: "StartUp Incubator",
-    position: "Full Stack Developer",
-    duration: "2017 - 2019",
-    description: "Worked on multiple startup projects, creating MVPs and helping early-stage companies bring their technological visions to life. Gained extensive experience in rapid prototyping and agile development."
+    comment: `Like a spark of energy, you light up everything around you. Every deployment I make feels like sending a little piece of my heart out into the world. 💖`,
   },
 ];
 

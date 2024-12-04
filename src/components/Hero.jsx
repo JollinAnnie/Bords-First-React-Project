@@ -26,19 +26,25 @@ const Hero = () => {
       id="hero"
     >
       <div className="flex-1 text-center md:text-left z-[1]">
-        <span className="text-xs md:text-sm text-black font-thin">
-          A Bubble.io Developer
-        </span>
+    <span className="text-xs md:text-sm text-pink-500 font-medium">
+      Anime Expert
+    </span>
 
-        <h2 className="text-3xl mt-3 md:text-5xl text-black md:mt-5">{name}</h2>
-        <p className="w-full text-black text-xs font-light leading-5 my-6 lg:w-[38vw] md:text-sm md:leading-6 md:my-8">{tagline}</p>
+    <h2 className="text-5xl md:text-7xl font-extrabold mt-5 text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-purple-700 leading-tight">
+      {name}
+    </h2>
 
-        <button className="primary-btn text-white" onClick={() => window.scrollTo({ top: document.getElementById('contact').offsetTop - 80, behavior: 'smooth' })}> Contact Me </button>
+    <p className="w-full text-black text-lg md:text-xl font-light leading-7 my-8 lg:w-[40vw] md:leading-8">
+      {tagline}
+    </p>
 
-
-
-      </div>
-
+    <button 
+      className="primary-btn text-white bg-pink-600 hover:bg-pink-700 border-2 border-transparent hover:border-pink-400 transition duration-200 ease-in-out px-8 py-3 rounded-lg shadow-md transform hover:scale-105"
+      onClick={() => window.scrollTo({ top: document.getElementById('contact').offsetTop - 80, behavior: 'smooth' })}
+    >
+      Contact Me
+    </button>
+  </div>
       <div className="flex gap-5 justify-center md:gap-3 lg:gap-5 z-[1]">
         <div className="w-[403px] bg-gradient-to-br from-white-950 to-slate-900 rounded-lg border border-white-950 p-6">
           <div className="flex items-center justify-center">
