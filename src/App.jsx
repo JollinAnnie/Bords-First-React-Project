@@ -7,7 +7,7 @@ import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
-import BG_GRADIENT from "./assets/wave.png";
+import BG_GRADIENT from "./assets/background.png";
 
 const App = () => {
   return (

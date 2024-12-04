@@ -46,11 +46,10 @@ const Hero = () => {
           </div>
 
           <div className="bg-cardbg rounded-md text-center mt-3 p-4 ">
-            <h5 className="text-sm md:text-base text-white">{name}</h5>
-            <p className="text-slate-500 text-xs md:font-medium mt-1">
-              {jobTitle}
-            </p>
-
+          <h5 className="text-sm md:text-base text-pink-600">{name}</h5>
+          <p className="text-rose-500 text-xs md:font-medium mt-1">
+            {jobTitle}
+          </p>
             <div className="flex items-center justify-center gap-2 text-slate-500 text-xs mt-1 text-white">
               <HiOutlineLocationMarker />
               <p className="font-medium">{location}</p>
@@ -71,8 +70,8 @@ const Hero = () => {
             {skills.map((item) => (
               <div
                 key={item}
-                className="text-[12px] text-black bg-blue-800/30 rounded md:text-xs px-3 py-1 "
-              >
+                className="text-[14px] text-white bg-gradient-to-r from-pink-300 via-rose-400 to-pink-500 rounded md:text-sm px-3 py-1"
+                >
                 {item}
               </div>
             ))}
@@ -84,22 +83,23 @@ const Hero = () => {
           <div className="flex justify-center items-center gap-4 flex-wrap text-black">
           
           <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-            <div className="bg-blue-800/30 p-2 rounded">
-              <FaGithub className="text-lg md:text-xl" />
-            </div>
-          </a>
+          <div className="bg-gradient-to-r from-pink-300 via-rose-400 to-pink-500 p-2 rounded">
+            <FaGithub className="text-white text-lg md:text-xl" />
+          </div>
+        </a>
 
-          <a href="https://www.linkedin.com/in/altheae-owe/" target="_blank" rel="noopener noreferrer">
-            <div className="bg-blue-800/30 p-2 rounded">
-              <FaLinkedin size={20} />
-            </div>
-          </a>
+        <a href="https://www.linkedin.com/in/altheae-owe/" target="_blank" rel="noopener noreferrer">
+          <div className="bg-gradient-to-r from-pink-300 via-rose-400 to-pink-500 p-2 rounded">
+            <FaLinkedin className="text-white" size={20} />
+          </div>
+        </a>
 
-          <a href="https://x.com" target="_blank" rel="noopener noreferrer">
-            <div className="bg-blue-800/30 p-2 rounded">
-              <FaXTwitter size={20} />
-            </div>
-          </a>
+        <a href="https://x.com" target="_blank" rel="noopener noreferrer">
+          <div className="bg-gradient-to-r from-pink-300 via-rose-400 to-pink-500 p-2 rounded">
+            <FaXTwitter className="text-white" size={20} />
+          </div>
+        </a>
+
         </div>
 
   </div>

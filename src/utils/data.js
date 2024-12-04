@@ -4,6 +4,7 @@ import edp from "../../src/assets/edp.jpg"
 import megumin from "../../src/assets/Megumin.webp"
 import hina from "../../src/assets/hina.webp"
 import horikita from "../../src/assets/horikita.jpeg"
+import klee from "../../src/assets/klee.jpeg"
 
 export const PROFILE_DATA = {
   profilePicture: "https://via.placeholder.com/150",
@@ -64,8 +65,8 @@ export const SKILLS = [
   },
   {
     id: "06",
-    image: "https://via.placeholder.com/300",
-    title: "CI/CD",
+    image: klee,
+    title: "Klee",
     comment: `Continuous Integration and Continuous Deployment are critical for modern software development. I've set up robust pipelines that automate testing and deployment processes.`,
   },
 ];
@@ -95,12 +96,12 @@ export const WORK_EXPERIENCE = [
 ];
 
 export const ABOUT_ME_DATA = {
-  introduction: "Hello! I'm Kai Rodriguez, a versatile software engineer with a passion for solving complex technological challenges and creating innovative digital solutions.",
-  background: "With a Master's degree in Computer Science from Stanford University, I've developed a strong foundation in software engineering principles and emerging technologies.",
-  skills: "My technical expertise spans full-stack development, cloud computing, and advanced programming paradigms. I specialize in creating scalable, efficient, and user-friendly software solutions.",
-  projects: "Notable projects include a machine learning-powered recommendation system, a real-time collaboration platform, and a distributed data processing framework that improved system efficiency by 40%.",
-  interests: "Beyond coding, I'm an avid rock climber, amateur photographer, and enjoy exploring the intersection of technology and sustainable design. I'm also passionate about mentoring young developers.",
-  careerGoals: "My objective is to continue pushing the boundaries of software engineering, contribute to meaningful technological innovations, and make a positive impact through technology.",
+  introduction: "Hello! I'm Bords! the unbeatable champion of all things tech and anime. I don’t just code—I code like a master. While most struggle to understand the complexities of software engineering, I breeze through it, effortlessly turning every challenge into a victory.",
+  background: "With a PhD in dominating tech from Stanford University (okay, not officially, but close enough), I’ve mastered every corner of programming and cutting-edge tech. From full-stack to AI, there’s nothing I can't conquer. And let’s not forget the secret weapon: my vast knowledge of anime, which fuels my creativity and keeps me ahead of the game.",
+  skills: "My technical abilities? Beyond elite. I specialize in crafting software solutions so flawless, they could be considered works of art. Cloud computing, full-stack development, machine learning? I own them all. When I write code, it’s like a manga—each line builds a new world, and every bug is just a plot twist waiting to be conquered.",
+  projects: "I’ve built projects that would make even the most seasoned devs sweat. From a recommendation system powered by machine learning (because I don’t do basic) to a distributed framework that boosted efficiency by 40%, my work always goes above and beyond. And yes, I’ve been known to drop a few game-changing side projects, just for fun.",
+  interests: "When I’m not rewriting the rules of software development, you’ll find me rock climbing, capturing the perfect photo, or geeking out over the latest anime series. I’m all about pushing limits—whether that’s scaling a cliff or analyzing the latest *Attack on Titan* episode for hidden symbolism. Mentoring future tech legends? Count me in.",
+  careerGoals: "I’m on a quest to revolutionize technology, one breakthrough at a time. The future? It’s mine to shape. I’ll keep innovating, keep winning, and make sure that my impact on the world—both in tech and in anime culture—is nothing short of legendary.",
 
   stats: {
     yearsOfExperience: '6+',

@@ -1,13 +1,14 @@
 import React from "react";
 import { ABOUT_ME_DATA } from "../utils/data";
 
-import PROFILE_PIC from "../assets/Temporary_Profile.jpg";
+
+import PROFILE_PIC from "../assets/thepose.jpg";
 
 const AboutMe = () => {
   return (
     <section className="max-w-screen-xl px-6 mx-auto py-10 md:py-24" id="about">
       <h5 className="text-primary text-2xl md:text-4xl font-semibold text-center md:text-left pb-10 md:pb-14 ">
-        About Me
+        Why I always win
       </h5>
 
       <div className="grid grid-cols-1 md:grid-cols-3 md:gap-4">
