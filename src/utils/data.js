@@ -71,6 +71,30 @@ export const SKILLS = [
   },
 ];
 
+export const WORK_EXPERIENCE = [
+  {
+    id: "01",
+    company: "TechInnovate Solutions",
+    position: "Senior Software Engineer",
+    duration: "2021 - Present",
+    description: "Leading a team of developers in creating enterprise-level web applications. Responsible for architecture design, code reviews, and implementing cutting-edge technologies."
+  },
+  {
+    id: "02",
+    company: "DataStream Analytics",
+    position: "Backend Developer",
+    duration: "2019 - 2021",
+    description: "Developed scalable backend services using Python and Django. Implemented complex data processing pipelines and optimized database performance for large-scale data applications."
+  },
+  {
+    id: "03",
+    company: "StartUp Incubator",
+    position: "Full Stack Developer",
+    duration: "2017 - 2019",
+    description: "Worked on multiple startup projects, creating MVPs and helping early-stage companies bring their technological visions to life. Gained extensive experience in rapid prototyping and agile development."
+  },
+];
+
 export const ABOUT_ME_DATA = {
   introduction: "Hello! I'm Bords! the unbeatable champion of all things tech and anime. I don’t just code—I code like a master. While most struggle to understand the complexities of software engineering, I breeze through it, effortlessly turning every challenge into a victory.",
   background: "With a PhD in dominating tech from Stanford University (okay, not officially, but close enough), I’ve mastered every corner of programming and cutting-edge tech. From full-stack to AI, there’s nothing I can't conquer. And let’s not forget the secret weapon: my vast knowledge of anime, which fuels my creativity and keeps me ahead of the game.",
